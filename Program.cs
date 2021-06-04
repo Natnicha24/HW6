@@ -76,7 +76,7 @@ namespace HW6
             long starttime = DateTimeOffset.Now.ToUnixTimeSeconds();
             int answer;
            
-            for (int i = 0; i < numProblems; i++)
+            for (int i = 0; i < numProblems; i++)//แสดงคำถามและรรับคำตอบ
             {
                 Console.WriteLine("{0}",randomProblem[i].Message);
                 answer = int.Parse(Console.ReadLine());
